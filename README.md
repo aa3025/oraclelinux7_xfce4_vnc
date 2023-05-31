@@ -24,5 +24,7 @@ Once VNC server starts in the container (you will see the output in your termina
     vncviewer.exe hostname:3
     
 To stop the container, either : 
+
     -- logout from VNC Desktop session
+    
     -- docker rm -f CONTAINERID
