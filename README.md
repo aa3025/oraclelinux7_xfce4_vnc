@@ -1,5 +1,5 @@
 # oraclelinux7_xfce4_vnc
-Oracle linux 7 XFCE 4 VNC Desktop
+Oracle Linux 7 XFCE 4 VNC Desktop
 
 
 
