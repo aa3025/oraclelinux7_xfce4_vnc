@@ -11,5 +11,5 @@ docker volume create --driver  local --opt type=nfs --opt o=addr=172.16.0.253,ve
 docker volume create --driver  local --opt type=nfs --opt o=addr=172.16.0.253,vers=4,soft,rw --opt device=:/export/$HOME $USER
 
 # mount local USER home in /home/$user/shared
-docker run -p 5903:5903 -v SHARE:/share -v $USER:/home/$user/shared -h compute aa3025/oracle-7-xfce4
+docker run -p 5903:5903 -v SHARE:/share -v $USER:/home/$user/shared -h compute local/oracle7_xfce_vnc
 
