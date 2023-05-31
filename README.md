@@ -13,7 +13,9 @@ edit variables in ./01_build.sh (user, password etc)
 
 ./01_build.sh
 
-./02_build.sh
+You may want to edit or remove docker volumes created in 02_start.sh to reflect your local system
+
+./02_start.sh
 
 
 connect to container in VNC to the displaynumber specified in build.sh, e.g. 
