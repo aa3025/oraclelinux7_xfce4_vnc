@@ -11,11 +11,11 @@ cd oraclelinux7_xfce4_vnc/
 
 edit variables in ./01_build.sh (user, password etc)
 
-./01_build.sh
+sh ./01_build.sh
 
 You may want to edit or remove docker volumes created in 02_start.sh to reflect your local system
 
-./02_start.sh
+sh ./02_start.sh
 
 
 connect to container in VNC to the displaynumber specified in build.sh, e.g. 
