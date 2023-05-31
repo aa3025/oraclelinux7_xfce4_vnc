@@ -9,14 +9,16 @@ git clone https://github.com/aa3025/oraclelinux7_xfce4_vnc.git
 
 cd oraclelinux7_xfce4_vnc/
 
-edit variables in ./01_build.sh (user, password etc)
+If you want edit variables in ./01_build.sh (user, UID and GID, password etc)
 
-sh ./01_build.sh
+Then run build script:
 
-You may want to edit or remove docker volumes created in 02_start.sh to reflect your local system
+    sh ./01_build.sh
 
-sh ./02_start.sh
+You may want to edit or remove docker volumes created in 02_start.sh to reflect your local system. Then run start script:
 
+    sh ./02_start.sh
 
-connect to container in VNC to the displaynumber specified in build.sh, e.g. 
-vncviewer.exe hostname:3
+Once VNC server starts in the container (you will see the output in your terminal), connect to it in VNC, to the displaynumber specified in build.sh, e.g. 
+  
+    vncviewer.exe hostname:3
