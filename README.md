@@ -22,3 +22,7 @@ You may want to edit or remove docker volumes created in 02_start.sh to reflect 
 Once VNC server starts in the container (you will see the output in your terminal), connect to it in VNC, to the displaynumber specified in build.sh, e.g. 
   
     vncviewer.exe hostname:3
+    
+To stop the container, either : 
+    -- logout from VNC Desktop session
+    -- docker rm -f CONTAINERID
