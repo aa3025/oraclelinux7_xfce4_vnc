@@ -39,6 +39,7 @@ RUN chown -R $user:$user /home/$user
 RUN chmod 600 /home/$user/.vnc/passwd
 RUN usermod -aG wheel $user
 RUN echo $pass | passwd -f -u $user
+EXPOSE 590$display/tcp
 #CMD "/bin/bash"
 USER $user
 CMD [ "/opt/startup.sh", "3" ] 

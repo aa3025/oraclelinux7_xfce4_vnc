@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker build \
--t local/oracle7_xfce_vnc \
+-t aa3025/oracle-7-xfce4 \
 --build-arg user=$USER \
 --build-arg pass=qwerty \
 --build-arg uid=$(id -u) \
